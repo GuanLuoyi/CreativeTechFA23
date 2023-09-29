@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+header {
+    color:white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(215, 223, 230) 0 20px 30px -10px;
+    box-sizing: border-box;
+}
+
+#submit-icon{
+    font-size: 30px;
+    position: absolute;
+    top: 3px;
+    right: 30px;
+}
+
+#submit-icon:hover{
+    cursor: pointer;
+}
+
+.images-section{
+    width: 100%;
+    max-width: 600px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+canvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.image-container {
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.image-container img{
+    width: 100%;
+}
