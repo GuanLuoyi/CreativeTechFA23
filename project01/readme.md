@@ -38,9 +38,3 @@ This part I use a powerful and minimal WebGL API called OGL to create an interac
 https://github.com/GuanLuoyi/CreativeTechFA23/assets/95225808/c33c8f28-9d13-4e55-a60b-899b4926d3a5
 
 
-
-
-
-https://github.com/GuanLuoyi/CreativeTechFA23/assets/95225808/b859cfb4-484c-4ec5-9567-f6c73a258589
-
-
